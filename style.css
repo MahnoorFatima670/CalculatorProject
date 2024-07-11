@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: black;
+}
+
+section
+{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.calculator
+{
+    background-color:#3a4452;
+    border-radius: 1rem;
+    padding: 20px;
+    height:33rem;
+}
+
+.calculator form input
+{
+border: 0;
+outline: 0;
+width:60px;
+height: 60px;
+border-radius: 1rem;
+font-size: 1.5rem;
+margin:0.7rem 0.1rem;
+}
+
+form .display input
+{
+
+width:16.2rem;
+color: aliceblue;
+background-color: rgba(0, 0, 0, 0.452);
+}
+
+
+.incr .reset 
+{
+width:127px;
+background-color: grey;
+}
+
+.incr .equal 
+{
+width:128px;
+background-color: rgb(255, 69, 0);
+color: aliceblue;
+}
+
+.del,.divi,.plus,.minus,.mul
+{
+    color:aliceblue;
+    background-color:rgb(255, 69, 0);
+}
+
+
+input[type="button"]
+
+{
+cursor: pointer;
+background-color:greenyello;
+
+}
